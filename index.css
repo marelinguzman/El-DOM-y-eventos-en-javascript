@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.botones{
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.opciones{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8.5rem;
+}
+.boton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: green;
+    margin-right: 10rem;
+}
+.boton1:hover{
+    cursor: pointer;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: orange;
+}
+.boton2:hover{
+    cursor: pointer;
+}
+.boton3{
+    background-color: black;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    color: aqua;
+
+}
+.verde{
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: green;
+}
+.naranjado{
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: orange;   
+}
